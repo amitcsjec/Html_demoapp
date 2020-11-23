@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage with CSS</title>
+</head>
+<body>
+    <h1 style="color: blue;">Welcome to my Webpage</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ullam, harum laboriosam accusamus corrupti dolorem ut nobis maiores vel, consequatur minima? Nobis aperiam natus repellat iusto tempore consequuntur dolor dicta!</p>
+    <p class="cl1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio numquam dolore placeat commodi accusantium asperiores odit nam. Sed cupiditate quod officia dolores, autem cum, delectus molestiae cumque veniam soluta dolore.
+    </p>
+    <h4 class="cl1" id="id1">Heading  4</h4>
+    <div id="id1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iste, sunt dolorem ipsum suscipit tempore facilis sed, placeat excepturi quaerat modi quam ex quisquam aliquid iusto dignissimos nemo magni at.
+    </div>
+
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, illum? Ea eum dolorum voluptatem dicta aperiam consectetur iure cumque blanditiis?
+    </div>
+
+    <H2>This shows hovering</H2>
+    <a href="https://www.amazon.com">amazon</a>
+    <a href="https://www.myntra.com" id="a1">MYNTRA</a>
+    <a href="https://www.hotmail.com"></a>HOTMAIL
+<p class="clp">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quasi! Beatae, odio voluptatem. Quia tempore ullam temporibus amet esse magni. Iusto perspiciatis ea illum, neque eos autem exercitationem rerum nemo?
+</p>
+<div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit impedit asperiores eum ipsum eius facere est exercitationem quaerat officia voluptatem officiis, distinctio adipisci, ipsa fugiat doloremque quam libero vero a.
+</div>
+<!-- ------------------LIST----------------- -->
+<ul class="ul1">
+    <li>Java</li>
+    <li>Python</li>
+    <li>C-Sharp</li>
+</ul>
+<ul class="ul2">
+    <li>Java</li>
+    <li>Python</li>
+    <li>C-Sharp</li>
+</ul>
+<ol class="ol1">
+    <li>Java</li>
+    <li>Python</li>
+    <li>C-Sharp</li>
+</ol>
+<ol class="ol2">
+    <li>Java</li>
+    <li>Python</li>
+    <li>C-Sharp</li>
+</ol>
+<img src="./cat1.jpg" alt="" id="st1">
+<img src="./download.jpg" alt="" id="st1">
+</body>
+</html>

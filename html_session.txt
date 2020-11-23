@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my first page</title>
+</head>
+<body>
+    <h1>
+        Welcome to my page
+    </h1>
+    <!-- <h2>Heading 2</h2>
+    <h3>Heading 3</h3> -->
+    <p> 
+    Lorem <b>Lorem, ipsum.</b> ipsum dolor,<b><i> sit amet consectetur </i></b> adipisicing <u>elit. Ut, voluptate.</u>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi aut neque cumque iusto totam maiores ab veniam quam blanditiis id vero itaque accusantium mollitia labore veritatis eius dignissimos fugiat rem, hic officiis suscipit quos cupiditate, exercitationem vitae? Cum, quisquam repellendus. Nam id et est recusandae reiciendis modi eligendi, sunt impedit nobis, commodi quidem minus! Dolorum laborum necessitatibus reiciendis ut ex aspernatur ratione eaque, dolore est accusamus perspiciatis atque sed! Rem enim, deserunt voluptas repellendus, sequi beatae ut eligendi eaque rerum minima, laborum doloremque perspiciatis incidunt repudiandae dignissimos ad sint atque possimus unde. Magnam excepturi nulla qui? Quae labore quidem omnis vero unde, quibusdam ex nostrum sint neque sapiente in culpa, molestiae ab suscipit natus praesentium deleniti. Ut at est ducimus sint minus doloremque, delectus amet ex sed iure accusamus totam porro consequatur eligendi eveniet! Hic vitae, quos adipisci repellat molestias esse illum repellendus sunt quaerat, impedit totam corrupti earum sequi mollitia sed. Recusandae fugiat asperiores minus fuga? Aliquid impedit quia aliquam mollitia consequatur amet quam cupiditate, nihil eligendi, necessitatibus placeat voluptatibus molestias. Earum quasi blanditiis obcaecati nam dignissimos quis non labore accusamus totam soluta quam velit, rerum molestias ipsa ex atque, sunt sed, vel voluptatum! Hic veniam aliquam, deleniti totam asperiores doloribus libero nulla sequi explicabo doloremque perferendis. Repellat sed provident corrupti facere ad saepe pariatur adipisci rerum sunt facilis quo impedit asperiores quibusdam voluptate fuga atque iusto error, distinctio in possimus qui debitis deserunt. Veritatis, provident.,<br> Ducimus ullam a soluta quibusdam minus illum eaque minima rerum pariatur, incidunt dicta eum adipisci ratione aperiam quod reprehenderit, vitae exercitationem quo eius? Alias deleniti laudantium sequi incidunt maiores commodi, non natus assumenda. Perspiciatis necessitatibus, saepe accusantium ipsum nam ut ipsa nihil a laboriosam accusamus dolorem quae voluptate quia distinctio iste autem ea recusandae veniam, tempora, itaque similique perferendis dolorum fugit maxime? Non!
+</p>
+<!-- ------- block level elemnts and inline elements -->
+<div>
+    DIV1
+</div>
+<div>DIV2</div>
+<div>Div3</div>
+<div>Div4</div>
+<div>DIV5</div>
+
+<SPAN>SPAN-1</SPAN>
+<SPAN>SPAN-2</SPAN>
+<SPAN>SPAN-3</SPAN>
+<SPAN>SPAN-4</SPAN>
+
+<!-- ------------------------------------ a tag used for linking pages -->
+<br>
+<a href="https://www.google.com">Google Page</a><br>
+<a href="./test.html">Take me to the test page</a><br>
+<a href="https:/www.flipkart.com"><img src="./fk.jpg" alt=""></a>
+
+<!-- ------- image  -->
+<img src="./cat1.jpg" alt="this is a cat imgae">
+
+<!-- unordered and ordered -->
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>BOOTSTRAP</li>
+</ul>
+<ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>BOOTSTRAP</li>
+    <li>JAVASCRIPT</li>
+</ol>
+<button >
+    Click me!
+</button>
+<!-- ---------- TABLE-------- -->
+<table style="width: 100%; height:50px;" border="1">
+    <tr>
+        <th>FName</th>
+        <th>LName</th>
+        <th>Age</th>
+        <th>Score</th>
+        <th>Grade</th>
+    </tr>
+    <tr style="text-align: center;">
+        <td colspan="2">Sam</td>
+        <!-- <td>Ahuja</td> -->
+        <td>23</td>
+        <td>64</td>
+        <td>B</td>
+    </tr>
+    <tr style="text-align: right;">
+        <td>Sunitha</td>
+        <td>Rani</td>
+        <td>22</td>
+        <td>74</td>
+        <td>B+</td>
+    </tr>
+    <tr>
+        <td rowspan="2"> Anil</td>
+        <td>Naidu</td>
+        <td>22</td>
+        <td>84</td>
+        <td>A</td>
+    </tr>
+    
+    <tr>
+        <!-- <td>Vipul</td> -->
+        <td>Nambiar</td>
+        <td>22</td>
+        <td>94</td>
+        <td>A+</td>
+    </tr>
+</table>
+</body>
+</html>

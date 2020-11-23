@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title><form action=""></form> page</title>
+</head>
+<body>
+    <h1 style="text-align: center;"> Please fill the form </h1>
+    <p></p>
+    <form action="">
+        First Name: 
+        <input type="text" name="fn"> <p></p>
+        Last Name: 
+        <input type="text" name="ln"> <p></p>
+        Username:
+        <input type="text" name="un"> <p></p>
+        Password:
+        <input type="password" name="pwd"><p></p>
+        Date of Birth:
+        <input type="date" name="bday"> <p></p>
+        Enter a date after 2018-01-01:
+        <input type="date" name="someday" min="2018-01-01"><p></p>
+        Enter Date before 2001-12-31:
+        <input type="date" name="date1" max="2001-12-31"><p></p>
+        Email:
+        <input type="emai" name="eml"><p></p>
+        Gender: <p></p>
+        <input type="radio" name="gender" value="ml">Male 
+        <input type="radio" name="gender" value="fml"> Female
+<p></p>
+        Natinality: <p></p>
+        <input type="radio" name="ntity" value="ind" checked>Indian
+        <input type="radio" name="ntity" value="db" >Bangladesi
+        <input type="radio" name="ntity" value="br" >British
+        <input type="radio" name="ntity" value="us" >American
+        <p></p>
+
+        Courses you want to take:
+        <p></p>
+        <input type="checkbox" name="java" value="c1">Java <br>
+        <input type="checkbox" name="DotNet" value="c2">DotNET <br>
+        <input type="checkbox" name="Python" value="c3">Python<br>
+        <input type="checkbox" name="js" value="c4">JavaScript<br>
+<p></p>
+        Highest Degree:
+        <select name="Highest Degree" id="hd">
+            <option value="hs">High School</option>
+            <option value="bd">Bachelor's Degree</option>
+            <option value="md">Master's Degree</option>
+            <option value="phd">PhD</option>
+        </select>
+
+        <p> </p>
+        Write Something abut yourself: <p></p>
+        <textarea name="msg" id="msg" cols="100" rows="10"></textarea>
+<p></p>
+        Upload your resume: <p></p>
+        <input type="file" name="file">
+<p></p>
+<input type="submit" name="SUBMIT">
+<p></p>
+<input type="reset">
+
+
+    </form>
+
+</body>
+</html>
